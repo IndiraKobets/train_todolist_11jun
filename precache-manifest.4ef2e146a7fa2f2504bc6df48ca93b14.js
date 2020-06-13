@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a4a461e581c34038a61af41305c0b46",
+    "revision": "564fe37a40ca185562319bd018a1ff06",
     "url": "/train_todolist_11jun/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/train_todolist_11jun/static/css/2.30c2d978.chunk.css"
   },
   {
-    "revision": "0c9a3fbc3e48dbaa4027",
+    "revision": "65dd5dd474363e0f9fbc",
     "url": "/train_todolist_11jun/static/css/main.e608b536.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/train_todolist_11jun/static/js/2.ddfa3841.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c9a3fbc3e48dbaa4027",
-    "url": "/train_todolist_11jun/static/js/main.c7305c79.chunk.js"
+    "revision": "65dd5dd474363e0f9fbc",
+    "url": "/train_todolist_11jun/static/js/main.c22f2ed1.chunk.js"
   },
   {
     "revision": "a4f60f194efd430b9a00",
