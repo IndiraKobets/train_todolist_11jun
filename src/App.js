@@ -8,6 +8,8 @@ const initialTodos = [
   {id: 1, name: 'Call Mom', done: false},
   {id: 2, name: 'Go shopping', done: true},
   {id: 3, name: 'Do laundry', done: false},
+  {id: 4, name: 'Learn react', done: false},
+  {id: 5, name: 'Watch lecture', done: false},
 ];
 function App() {
 
