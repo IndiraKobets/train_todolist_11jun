@@ -14,12 +14,17 @@ const addTask = () => {
 
   return (
     <div className="TodoCreateForm" >
-        <ul className="list-group"  style={{padding:"20px"}}>
+        <div className="input-group mb-3" style={{padding:"20px"}}>
+            <input value={task} onChange={e => setTask(e.target.value)} type="text" className="form-control"
+                   placeholder="Add Todo"
+                   aria-label="Add Todo" aria-describedby="button-addon2" />
+                <div className="input-group-append">
+                    <button onClick={addTask} disabled={task.trim() === ''} className="btn btn-primary" type="button" id="button-addon2">Add Task</button>
+                </div>
+        </div>
 
-       <input type="text"  value={task} onChange={e => setTask(e.target.value)}/>
-       <button  onClick={addTask} disabled={task.trim() === ''}>Add Task</button>
 
-        </ul >
+
     </div>
   );
 }
